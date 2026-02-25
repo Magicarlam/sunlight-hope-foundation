@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sunlight Hope Foundation</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -16,8 +17,11 @@
 <!-- NAVBAR -->
 <header class="navbar">
   <div class="container">
-    <img src="assets/logo.png" class="logo" alt="Sunlight Hope Foundation">
-
+    <a href="index.html" class="brand">
+    <img src="assets/sunlightlogo.png" class="logo" alt="Sunlight Hope Foundation">
+        <span class="brand-name">Sunlight Hope Foundation</span>
+        <small class="tagline">Bringing Hope to Communities</small>
+    </a>
     <div class="menu-toggle" id="menuToggle">☰</div>
 
     <nav id="navMenu">
@@ -31,10 +35,16 @@
 </header>
 
 <!-- HERO SECTION -->
-<section class="hero">
+ <section class="hero slideshow">
+  <div class="slides">
+    <img src="assets/slide1.jpg" class="slide active">
+    <img src="assets/slide2.jpg" class="slide">
+    <img src="assets/slide3.jpg" class="slide">
+  </div>
+
   <div class="hero-content">
-    <h1>Bringing Light & Hope to Communities</h1>
-    <p>Empowering lives through education, healthcare and community support.</p>
+    <h1>Sunlight Hope Foundation</h1>
+    <p>Bringing light and hope to communities across Kenya.</p>
     <a href="donate.html" class="btn btn-primary">Donate Now</a>
   </div>
 </section>
